@@ -1,21 +1,17 @@
 import React from 'react';
-import { GithubService } from '../shared/github.service';
+import { APIService } from '../shared/api-service';
 import type { Fetcher } from '../shared/hooks/use-fetcher';
-import type { GitHubContributions } from '../shared/model/github-contributions';
-import type { GithubRepository } from '../shared/model/github-repository';
-import type { GitHubUser } from '../shared/model/github-user';
+import type { ApiContributions } from '../shared/model/api-contributions';
+import type { APIProject } from '../shared/model/api-project';
+import type { ApiUser } from '../shared/model/api-user';
 
 export interface IAppContext {
-    githubService: GithubService;
-    userInfo?: Fetcher<GitHubUser | null>;
-    userRepos?: Fetcher<GithubRepository[]>;
-    navigationStats?: Fetcher<{
-        reposCount: number;
-        starsCount: number;
-    }>;
-    userContributions?: Fetcher<GitHubContributions>;
+    apiService: APIService;
+    userInfo?: Fetcher<ApiUser | null>;
+    userProjects?: Fetcher<APIProject[]>;
+    userContributions?: Fetcher<ApiContributions>;
 }
 
 export const AppContext = React.createContext<IAppContext>({
-    githubService: new GithubService(),
+    apiService: new APIService(),
 });
