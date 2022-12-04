@@ -20,9 +20,9 @@ export const TopBar: React.FC<TopBarProps> = ({ className, user }) => {
 
             <div className={styles.userinfo}>
                 <div className={styles.names}>
+                    <ConnectButton />
                     <span className={styles.name}>{user?.name}</span>
                     <span className={styles.username}>{user?.username}</span>
-                    <ConnectButton />
                     <span className={styles.members}>Member since 1984</span></div>
 
                 <UserInfo

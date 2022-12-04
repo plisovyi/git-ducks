@@ -6,7 +6,7 @@ const JohnDoe: ApiUser = {
     avatar: 'https://i.pravatar.cc/64?u=john-doe',
     bio: 'Some bio information',
     username: 'john-doe',
-    location: 'USA',
+    location: 'Israel',
     name: 'John Doe',
     email: 'john@doe.com',
     followers: 19,
