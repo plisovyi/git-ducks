@@ -1,6 +1,6 @@
 {
     "safeRender": {
-        "maxInstancesPerComponent": "400"
+        "maxInstancesPerComponent": 400
     },
     "boardGlobalSetup": "./src/_wcs/setup.ts",
     "newComponent": {
