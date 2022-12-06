@@ -1,0 +1,14 @@
+{
+    "safeRender": {
+        "maxInstancesPerComponent": "400"
+    },
+    "boardGlobalSetup": "./src/_wcs/setup.ts",
+    "newComponent": {
+        "componentsPath": "src/components",
+        "templatesPath": "src/wcs-component-templates"
+    },
+    "componentsDiscovery": {
+        "include": ["src/**"],
+        "exclude": ["src/wcs-component-templates/**"]
+    }
+}
