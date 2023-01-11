@@ -5,7 +5,7 @@ export default createBoard({
     name: 'Link - bold',
     Board: () => (
         <Link url={'#'} bold>
-            test
+            Bold Link
         </Link>
     ),
 });

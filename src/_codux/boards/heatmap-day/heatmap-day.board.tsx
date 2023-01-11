@@ -3,11 +3,10 @@ import { HeatmapDay } from '../../../components/pages/overview/contributions/hea
 
 export default createBoard({
     name: 'HeatmapDay',
-    Board: () => <HeatmapDay></HeatmapDay>,
+    Board: () => <HeatmapDay />,
     environmentProps: {
         windowWidth: 300,
         windowHeight: 413,
-        canvasMargin: {},
         canvasPadding: {
             top: 24,
             right: 24,

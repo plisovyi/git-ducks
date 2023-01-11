@@ -27,7 +27,7 @@ export const HeatmapAxisX = memo<HeatmapAxisXProps>(function HeatmapAxisX({ clas
     });
 
     return (
-        <div className={`${styles.root} ${className || ''}`}>
+        <div className={`${styles.root} ${className}`}>
             {xTicks.map((tick, index) => (
                 <div className={styles.tick} key={index}>
                     {tick}

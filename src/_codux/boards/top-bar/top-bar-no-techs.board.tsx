@@ -14,8 +14,7 @@ const JohnDoe: ApiUser = {
     url: '',
     organization: '',
     organizations: [],
-    techs: {
-    }
+    techs: {},
 };
 
 export default createBoard({

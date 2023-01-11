@@ -18,7 +18,7 @@ export const HeatmapDay = memo<HeatmapDayProps>(function HeatmapDay({ className,
         <div
             title={title}
             data-contribution-date={date}
-            className={`${styles.root} ${className || ''} ${styles[levelClass]}`}
-        ></div>
+            className={`${styles.root} ${className} ${styles[levelClass]}`}
+        />
     );
 });

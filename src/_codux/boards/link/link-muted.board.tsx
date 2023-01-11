@@ -5,7 +5,7 @@ export default createBoard({
     name: 'Link - muted',
     Board: () => (
         <Link url={'#'} mute>
-            test
+            Muted Link
         </Link>
     ),
 });

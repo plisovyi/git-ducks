@@ -3,7 +3,7 @@ import { Header } from '../../../components/layout/header/header';
 
 export default createBoard({
     name: 'Header',
-    Board: () => <Header></Header>,
+    Board: () => <Header />,
     environmentProps: {
         canvasWidth: 1280,
         windowWidth: 1440,

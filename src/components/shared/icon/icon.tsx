@@ -10,7 +10,7 @@ export interface IconProps {
 export const Icon = memo<IconProps>(function Icon({ className, name }) {
     const icon = useMemo(() => getIcon(name), [name]);
     return (
-        <svg className={`${styles.root} ${className || ''}`} width="16" height="16" viewBox="0 0 16 16">
+        <svg className={`${styles.root} ${className}`} width="16" height="16" viewBox="0 0 16 16">
             {icon}
         </svg>
     );

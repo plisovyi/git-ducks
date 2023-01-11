@@ -6,5 +6,7 @@ export default createBoard({
     Board: () => <Project description="Some project with mocked description" name="mocked-project/name" />,
     environmentProps: {
         canvasWidth: 400,
+        windowHeight: 429,
+        windowWidth: 720
     },
 });

@@ -12,7 +12,7 @@ export interface HeatmapProps {
 
 export const Heatmap = memo<HeatmapProps>(function Heatmap({ className, weeks = [] }) {
     return (
-        <div className={`${styles.root} ${className || ''}`}>
+        <div className={`${styles.root} ${className}`}>
             <HeatmapAxisX className={styles.axisX} weeks={weeks} />
 
             <div className={styles.chart}>

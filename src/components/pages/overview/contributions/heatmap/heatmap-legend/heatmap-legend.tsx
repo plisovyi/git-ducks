@@ -8,7 +8,7 @@ export interface HeatmapLegendProps {
 
 export const HeatmapLegend = memo<HeatmapLegendProps>(function HeatmapLegend({ className }) {
     return (
-        <div className={`${styles.root} ${className || ''}`}>
+        <div className={`${styles.root} ${className}`}>
             <span>Less</span>
             <HeatmapDay className={styles.day} />
             <HeatmapDay className={styles.day} level={{ l1: true }} />
