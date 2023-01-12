@@ -1,5 +1,5 @@
-export const cSharpIcon = (
-    <svg width="34" height="35" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+export const CSharpIcon = (props: React.HTMLAttributes<SVGElement>) => (
+    <svg width="34" height="35" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
         <rect x="0.488281" y="0.68605" width="33.4884" height="34.2326" rx="4" fill="#E7DFFF" />
         <path
             fillRule="evenodd"

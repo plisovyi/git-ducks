@@ -17,10 +17,10 @@ export const Contributions = memo<ContributionsProps>(function Contributions({ c
 
     return (
         <div className={className}>
-            <p className={styles.title}>
+            <div className={styles.title}>
                 <div className={styles.numberOfContributes}>{userContributions?.data?.total}</div>&nbsp; contributions
                 in 2023
-            </p>
+            </div>
             <div>
                 <Heatmap weeks={heatmapWeeks} />
             </div>

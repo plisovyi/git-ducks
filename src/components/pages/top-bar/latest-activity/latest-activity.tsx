@@ -16,8 +16,8 @@ export const LatestActivity: React.FC<LatestActivityProps> = ({ children }) => {
         <div className={styles.container}>
             <p className={styles.title}>Latest Activity</p>
             <div className={styles.list}>
-                {children.map((child) => (
-                    <div className={styles.activity}>
+                {children.map((child, i) => (
+                    <div key={i} className={styles.activity}>
                         <div>{child.icon}</div>
                         <div className={styles.info}>
                             <div>
