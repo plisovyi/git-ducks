@@ -3,12 +3,12 @@ import { TopBar } from '../../../components/pages/top-bar/top-bar';
 import type { ApiUser } from '../../../shared/model/api-user';
 
 const JohnDoe: ApiUser = {
-    avatar: 'https://i.pravatar.cc/64?u=john-doe',
+    avatar: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80',
     bio: 'Some bio information',
-    username: 'john-doe',
+    username: 'jane-doe',
     location: 'USA',
-    name: 'John Doe',
-    email: 'john@doe.com',
+    name: 'Jane Doe',
+    email: 'jane@doe.com',
     followers: 19,
     following: 20,
     twitter: '',
